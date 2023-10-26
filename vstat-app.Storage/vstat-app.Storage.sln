@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vstat-app.Storage.App", "vstat-app.Storage.App\vstat-app.Storage.App.csproj", "{D8BCA4FB-796F-42B1-A0D0-938A3FEB65AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vstat-app.Storage.Contracts", "vstat-app.Storage.Contracts\vstat-app.Storage.Contracts.csproj", "{238A3E4B-BDAE-4ECC-8517-65769488123B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vstat-app.Storage.Migrations", "vstat-app.Storage.Migrations\vstat-app.Storage.Migrations.csproj", "{74C02D01-B344-415C-A334-E773B2884DF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vstat-app.Storage.Tests", "vstat-app.Storage.Tests\vstat-app.Storage.Tests.csproj", "{58F42733-3776-41B5-94C1-BD6FC1E67087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vstat-app.Storage.Bll", "vstat-app.Storage.Bll\vstat-app.Storage.Bll.csproj", "{6449B57E-7374-4306-89EF-E6F73A0314D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BCA4FB-796F-42B1-A0D0-938A3FEB65AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BCA4FB-796F-42B1-A0D0-938A3FEB65AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BCA4FB-796F-42B1-A0D0-938A3FEB65AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BCA4FB-796F-42B1-A0D0-938A3FEB65AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238A3E4B-BDAE-4ECC-8517-65769488123B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238A3E4B-BDAE-4ECC-8517-65769488123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238A3E4B-BDAE-4ECC-8517-65769488123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238A3E4B-BDAE-4ECC-8517-65769488123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C02D01-B344-415C-A334-E773B2884DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C02D01-B344-415C-A334-E773B2884DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C02D01-B344-415C-A334-E773B2884DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C02D01-B344-415C-A334-E773B2884DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F42733-3776-41B5-94C1-BD6FC1E67087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F42733-3776-41B5-94C1-BD6FC1E67087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F42733-3776-41B5-94C1-BD6FC1E67087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F42733-3776-41B5-94C1-BD6FC1E67087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6449B57E-7374-4306-89EF-E6F73A0314D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6449B57E-7374-4306-89EF-E6F73A0314D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6449B57E-7374-4306-89EF-E6F73A0314D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6449B57E-7374-4306-89EF-E6F73A0314D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D23BDCC6-5F42-437E-A4A2-B75A42441CEE}
+	EndGlobalSection
+EndGlobal
